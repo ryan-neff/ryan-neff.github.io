@@ -27,8 +27,25 @@ body{
   width: 200px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 80px;
+  margin-top: -85px;
 }
+
+#sidebar{
+	display: inline-block;
+	width:140px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+a{
+    margin-top: 40px;
+    font-family: "Lato";
+    color: black;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 
 #aboutme-btn{
 	
@@ -53,5 +70,40 @@ body{
 #aboutme-btn:hover{
 	opacity: 1;
 }
+
+.animText{
+	font-family: "Courier";
+	color: #666666;
+	font-weight: lighter;
+	padding-left: 10px;
+	font-size: 18px;
+	white-space: nowrap;
+  	overflow: hidden;
+  	width: 180px;
+  	-webkit-animation: type 5s steps(50, end);
+	animation: type 5s steps(50,end);
+}
+
+.animText:nth-child(2){
+  animation: type2 8s steps(60, end);
+}
+
+.animText:nth-of-type(3){
+	animation: type2 14s steps(60, end);
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+}
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@-webkit-keyframes type{ 
+  from { width: 0; } 
+} 
 
 
