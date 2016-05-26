@@ -6,7 +6,9 @@
 body{
 	background-color: #F7F7F7;
 }
-
+p{
+	font-family: "Lato";
+}
 #name{
      font-family: "Lato";
      margin-left: 5px;
@@ -32,7 +34,7 @@ body{
 
 #sidebar{
 	display: inline-block;
-	width:140px;
+	width:155px;
 	margin-top: 40px;
 	margin-left: 10px;
 }
@@ -44,6 +46,11 @@ a{
     text-decoration: none;
     font-weight: bold;
     font-size: 30px;
+}
+
+a:hover{
+	text-decoration: none;
+	font-weight: bolder;
 }
 
 
@@ -80,16 +87,16 @@ a{
 	white-space: nowrap;
   	overflow: hidden;
   	width: 180px;
-  	-webkit-animation: type 5s steps(50, end);
-	animation: type 5s steps(50,end);
+  	-webkit-animation: type 1s steps(60, end);
+	animation: type 1s steps(60,end);
 }
 
 .animText:nth-child(2){
-  animation: type2 8s steps(60, end);
+  animation: type2 2s steps(60, end);
 }
 
 .animText:nth-of-type(3){
-	animation: type2 14s steps(60, end);
+	animation: type2 4s steps(60, end);
 }
 
 @keyframes type{ 
