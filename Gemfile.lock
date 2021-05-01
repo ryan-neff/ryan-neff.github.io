@@ -119,6 +119,8 @@ GEM
       commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1.2)
       rouge (>= 2.0, < 4.0)
+    jekyll-data (1.1.1)
+      jekyll (>= 3.3, < 5.0.0)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.15.1)
@@ -274,6 +276,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 214)
   jekyll (~> 3.9.0)
+  jekyll-data
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   minimal-mistakes-jekyll
