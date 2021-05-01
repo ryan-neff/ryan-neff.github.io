@@ -28,23 +28,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ryan-neff.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ryan-neff
 author:
-  name: "Your Name"
+  name: "Ryan Neff"
   avatar: "/assets/images/bio-photo.png"
-  bio: "I am an **amazing** person." # Note: Markdown is allowed
-  location: "Somewhere"
+  bio: "DevOps Engineer. " # Note: Markdown is allowed
+  location: "Kansas City, MO"
   links:
-    - label: "Made Mistakes"
-      icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ryan-neff-1b015098/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://github.com/ryan-neff"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
