@@ -29,7 +29,7 @@ url: "https://ryan-neff.github.io" # the base hostname & protocol for your site,
 github_username: ryan-neff
 author:
   name: "Your Name"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.png"
   bio: "I am an **amazing** person." # Note: Markdown is allowed
   location: "Somewhere"
   links:
