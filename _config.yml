@@ -55,10 +55,10 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
       layout: single
       share: true
       related: true
-    values:
       author_profile: true
   #_pages
   - scope:
