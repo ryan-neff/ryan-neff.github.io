@@ -25,11 +25,11 @@ This walkthrough is intented for the at home hobbyist and not necessarily a team
 1. To start, be sure you are logged into your AWS account via an IAM user and not as root. Additionally, ensure that this user has Cloud9 permissions.(Disclosure, I am the only user in my account so it has full admin access across the account. If you are less lazy like me and are handling permissions more responsibly, you may have to try a couple of times to get the permissions just right.) 
 1. Navigate to https://us-west-2.console.aws.amazon.com/cloud9/ in the console
 1. Click **Create Environment** and you will be directed to name your environment. Here I am going with *cloud-playground*. Once filled click next.
-![Console pic](../assets/2021-05-02-cloud9-with-gitssh/console.png)
+![Console pic](../../../assets/2021-05-02-cloud9-with-gitssh/console.png)
 1. Next you will need to decide which set up (EC2 or SSH) you wish to use. In this case I am using the EC2 option and staying on the free-tier t2.micro. If you are not using the default VPC and have a preference on what subnet you wish to use, you can set that here as well. Click next.
-![Setup pic](../assets/2021-05-02-cloud9-with-gitssh/env-setup.png)
+![Setup pic](../../../assets/2021-05-02-cloud9-with-gitssh/env-setup.png)
 1. From here there will be a short wait period while Cloud9 runs a CloudFormation stack in the background to provision your new EC2 instance. Once complete, you will be greated with a fresh IDE and a welcome screen.
-![IDE pic](../assets/2021-05-02-cloud9-with-gitssh/cloud9-firstview.png)
+![IDE pic](../../../assets/2021-05-02-cloud9-with-gitssh/cloud9-firstview.png)
 
 ## Environment Overview
 ## Set up SSH Key with GitHub
