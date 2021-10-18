@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "johndoe"
+title = "Ryan Neff"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -17,7 +17,6 @@ description = "Ryan's personal website"
 keywords = "blog,developer,personal"
 info = ["Full Stack DevOps", "Cloud Computing Steward"]
 avatarURL = "/images/avatar.png"
-#gravatar = "john.doe@example.com"
 footerContent = "Enter a text here."
 dateFormat = "January 2, 2006"
 hideFooter = false
