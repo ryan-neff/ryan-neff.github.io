@@ -1,3 +1,0 @@
-
-# Ryan Neff
-## Raleight NC
