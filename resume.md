@@ -1,7 +1,5 @@
 ---
-layout: page
-title: Resume
-permalink: /resume/
+layout: home
 ---
 
 ### _February 2022 - Present_
