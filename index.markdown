@@ -2,8 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-
+title: Resume
 ---
+
 
 ### _February 2022 - Present_
 ### Amazon Web Services, Remote - _DevOps Consultant_
